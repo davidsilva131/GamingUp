@@ -3,8 +3,17 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
-  theme: {},
-  plugins: [],
+  theme: {
+    colors: {
+      'gup-green': '#CDFF00',
+      'gup-dark': '#13171A',
+      white: '#ffffff'
+    }
+  },
+  daisyui: {
+    themes: false
+  },
+  plugins: [require('daisyui')]
 }
