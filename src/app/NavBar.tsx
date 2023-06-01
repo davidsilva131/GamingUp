@@ -52,7 +52,6 @@ const NavBar = ({ children }: { children: React.ReactNode }) => {
           </div>
           <div className='flex-none hidden lg:block'>
             <ul className='flex gap-12 pr-6'>
-              {/* <!-- Navbar menu content here --> */}
               {LINKS.map((link) => (
                 <li key={`${link.text} navbar`}>
                   <Link
@@ -70,8 +69,7 @@ const NavBar = ({ children }: { children: React.ReactNode }) => {
       </div>
       <div className='drawer-side'>
         <label htmlFor='my-drawer-3' className='drawer-overlay'></label>
-        <ul className='menu p-4 w-64 bg-gup-dark'>
-          {/* <!-- Sidebar content here --> */}
+        <ul className='flex flex-col gap-16 py-4 pl-9 w-64 bg-gup-dark'>
           {LINKS.map((link) => (
             <li
               key={`${link.text} sidebar`}
