@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link'
 import { Dancing_Script } from 'next/font/google'
 import Image from 'next/image'
@@ -19,6 +20,13 @@ const LINKS = [
 const dancing = Dancing_Script({ subsets: ['latin'] })
 
 const NavBar = ({ children }: { children: React.ReactNode }) => {
+  const toggleSidebar = () => {
+    const side = document.getElementById(
+      'my-drawer-3'
+    ) as HTMLInputElement | null
+    side?.click()
+  }
+
   return (
     <div className='drawer'>
       <input id='my-drawer-3' type='checkbox' className='drawer-toggle' />
@@ -74,6 +82,7 @@ const NavBar = ({ children }: { children: React.ReactNode }) => {
             <li
               key={`${link.text} sidebar`}
               className={`${dancing.className} text-gup-green text-3xl`}
+              onClick={() => toggleSidebar()}
             >
               <Link href={link.href}>{link.text}</Link>
             </li>
