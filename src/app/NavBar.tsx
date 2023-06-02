@@ -1,37 +1,14 @@
-'use client'
 import Link from 'next/link'
-import { Dancing_Script } from 'next/font/google'
 import Image from 'next/image'
 import GupLogo from '@/app/GUP_LOGO.webp'
-const LINKS = [
-  {
-    text: 'Inicio',
-    href: '/'
-  },
-  {
-    text: 'Equipos',
-    href: '/equipos'
-  },
-  {
-    text: 'Tienda',
-    href: '/tienda'
-  }
-]
-const dancing = Dancing_Script({ subsets: ['latin'] })
+import { LINKS, dancing } from '@/constants'
+import Sidebar from '@/app/SideBar'
 
 const NavBar = ({ children }: { children: React.ReactNode }) => {
-  const toggleSidebar = () => {
-    const side = document.getElementById(
-      'my-drawer-3'
-    ) as HTMLInputElement | null
-    side?.click()
-  }
-
   return (
     <div className='drawer'>
       <input id='my-drawer-3' type='checkbox' className='drawer-toggle' />
       <div className='drawer-content flex flex-col'>
-        {/* <!-- Navbar --> */}
         <div className='w-full navbar bg-gup-dark'>
           <div className='flex-none lg:hidden'>
             <label htmlFor='my-drawer-3' className='btn btn-square btn-ghost'>
@@ -75,20 +52,7 @@ const NavBar = ({ children }: { children: React.ReactNode }) => {
         </div>
         {children}
       </div>
-      <div className='drawer-side'>
-        <label htmlFor='my-drawer-3' className='drawer-overlay'></label>
-        <ul className='flex flex-col gap-16 py-4 pl-9 w-64 bg-gup-dark'>
-          {LINKS.map((link) => (
-            <li
-              key={`${link.text} sidebar`}
-              className={`${dancing.className} text-gup-green text-3xl`}
-              onClick={() => toggleSidebar()}
-            >
-              <Link href={link.href}>{link.text}</Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <Sidebar />
     </div>
   )
 }
