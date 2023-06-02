@@ -42,7 +42,7 @@ const NavBar = ({ children }: { children: React.ReactNode }) => {
               {LINKS.map((link) => (
                 <li key={`${link.text} navbar`}>
                   <Link
-                    className={`${dancing.className} text-gup-green text-3xl transition-all duration-500 ease-out hover:ease-in hover:text-white `}
+                    className={`${dancing.className} text-gup-green text-3xl transition-all duration-500 ease-out hover:ease-in hover:text-white focus:text-white`}
                     href={link.href}
                   >
                     {link.text}
