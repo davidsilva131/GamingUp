@@ -28,12 +28,14 @@ const NavBar = ({ children }: { children: React.ReactNode }) => {
             </label>
           </div>
           <div className='flex-1 justify-center lg:justify-start px-2 mx-2 text-gup-green'>
-            <Image
-              src={GupLogo}
-              alt='Gaming Up Logo'
-              width={100}
-              height={100}
-            />
+            <Link href='/'>
+              <Image
+                src={GupLogo}
+                alt='Gaming Up Logo'
+                width={100}
+                height={100}
+              />
+            </Link>
           </div>
           <div className='flex-none hidden lg:block'>
             <ul className='flex gap-12 pr-6'>
