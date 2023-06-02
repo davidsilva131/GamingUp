@@ -9,7 +9,7 @@ const NavBar = ({ children }: { children: React.ReactNode }) => {
     <div className='drawer'>
       <input id='my-drawer-3' type='checkbox' className='drawer-toggle' />
       <div className='drawer-content flex flex-col'>
-        <div className='w-full navbar bg-gup-dark'>
+        <header className='w-full h-36 navbar fixed bg-gup-dark'>
           <div className='flex-none lg:hidden'>
             <label htmlFor='my-drawer-3' className='btn btn-square btn-ghost'>
               <svg
@@ -49,7 +49,7 @@ const NavBar = ({ children }: { children: React.ReactNode }) => {
               ))}
             </ul>
           </div>
-        </div>
+        </header>
         {children}
       </div>
       <Sidebar />
