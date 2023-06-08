@@ -1,0 +1,193 @@
+[
+  {
+    "teams": [
+      {
+        "valorantFem": [
+          {
+            "players": [
+              {
+                "playerName": "Zaki",
+                "playerImage": ""
+              },
+              {
+                "playerName": "Gutter Woman",
+                "playerImage": ""
+              },
+              {
+                "playerName": "AnLuu",
+                "playerImage": ""
+              },
+              {
+                "playerName": "Arisa",
+                "playerImage": ""
+              },
+              {
+                "playerName": "Yunn",
+                "playerImage": ""
+              },
+              {
+                "playerName": "Morgan",
+                "playerImage": ""
+              }
+            ],
+            "coach": {
+              "coachName": "Aro",
+              "coachImage": ""
+            }
+          }
+        ],
+        "valorantMens": [
+          {
+            "players": [
+              {
+                "playerName": "Feitan",
+                "playerImage": ""
+              },
+              {
+                "playerName": "Rei",
+                "playerImage": ""
+              },
+              {
+                "playerName": "Tegui",
+                "playerImage": ""
+              },
+              {
+                "playerName": "SamyLin",
+                "playerImage": ""
+              },
+              {
+                "playerName": "Sakura",
+                "playerImage": ""
+              },
+              {
+                "playerName": "Boaa",
+                "playerImage": ""
+              }
+            ],
+            "coach": {
+              "coachName": "",
+              "coachImage": ""
+            }
+          }
+        ],
+        "smashBros": [
+          {
+            "playerName": "Daltamon",
+            "playerImage": ""
+          }
+        ],
+        "rainbowSix": [
+          {
+            "players": [
+              {
+                "playerName": "Justin",
+                "playerImage": ""
+              }
+            ],
+            "coach": {
+              "coachName": "",
+              "coachImage": ""
+            }
+          }
+        ]
+      }
+    ],
+    "contentCreators": [
+      {
+        "contentCreatorName": "Dasein",
+        "contentCreatorImage": "",
+        "contentCreatorSocials": [
+          {
+            "socialName": "Twitter",
+            "socialLink": "https://twitter.com/llDasein"
+          },
+          {
+            "socialName": "Twitch",
+            "socialLink": "https://www.twitch.tv/ldasein"
+          },
+          {
+            "socialName": "Instagram",
+            "socialLink": "https://instagram.com/dasein.__"
+          },
+          {
+            "socialName": "Tiktok",
+            "socialLink": ""
+          }
+        ]
+      },
+      {
+        "contentCreatorName": "Stigman",
+        "contentCreatorImage": "",
+        "contentCreatorSocials": [
+          {
+            "socialName": "Twitter",
+            "socialLink": ""
+          },
+          {
+            "socialName": "Twitch",
+            "socialLink": ""
+          },
+          {
+            "socialName": "Instagram",
+            "socialLink": ""
+          },
+          {
+            "socialName": "Tiktok",
+            "socialLink": ""
+          }
+        ]
+      },
+      {
+        "contentCreatorName": "Mecato",
+        "contentCreatorImage": "",
+        "contentCreatorSocials": [
+          {
+            "socialName": "Twitter",
+            "socialLink": ""
+          },
+          {
+            "socialName": "Twitch",
+            "socialLink": ""
+          },
+          {
+            "socialName": "Instagram",
+            "socialLink": ""
+          },
+          {
+            "socialName": "Tiktok",
+            "socialLink": ""
+          }
+        ]
+      },
+      {
+        "contentCreatorName": "Camivz",
+        "contentCreatorImage": "",
+        "contentCreatorSocials": [
+          {
+            "socialName": "Twitter",
+            "socialLink": ""
+          },
+          {
+            "socialName": "Twitch",
+            "socialLink": ""
+          },
+          {
+            "socialName": "Instagram",
+            "socialLink": ""
+          },
+          {
+            "socialName": "Tiktok",
+            "socialLink": ""
+          }
+        ]
+      }
+    ],
+    "staff": [
+      {
+        "staffName": "BlackSheepo",
+        "staffImage": "",
+        "staffRole": "CEO y creador de Gaming Up"
+      }
+    ]
+  }
+]
